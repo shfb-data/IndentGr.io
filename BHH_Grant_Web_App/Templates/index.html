@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+
+
+<html> 
+<head>
+
+    <title> Grant Identifier </title>
+    
+</head>
+<body>
+    <div class >
+    <div>
+            <h1> Bring Hope Home Grant Identifier</h1>
+     </div>
+
+     <div class>
+        <form class = "" action = "{{url_for('view') }}" method = "POST" enctype ="multipart/form-data">
+           
+            <label for =  "grant"> Grant </label>
+
+            <input type = "file" id = "grant" name = "Grant file" accept="application/vnd.openxmlformats-officedocument.spreadsheetml.sheet, application/vnd.ms-excel"> 
+           
+            <br>
+
+            <label for = "eagle">Schedule</label>
+
+            <input type = "file" id = "eagle" name = "Eagle file" accept="application/vnd.openxmlformats-officedocument.spreadsheetml.sheet, application/vnd.ms-excel">  
+            
+            <br>
+
+            <label for = "master">Master List</label>
+
+            <input type = "file" id ="master" name = "Master file" accept="application/vnd.openxmlformats-officedocument.spreadsheetml.sheet, application/vnd.ms-excel">  
+           
+            <br>
+
+            <label for = "bafi">BAFI</label>
+            
+            <input type = "file" id="bafi" name = "Bafi file" accept="application/vnd.openxmlformats-officedocument.spreadsheetml.sheet, application/vnd.ms-excel">  
+            
+            <br>
+
+            <input type = "submit"  value = "Upload"> 
+        </form>
+    </div>
+</div>
+</body>
+
+</html>
